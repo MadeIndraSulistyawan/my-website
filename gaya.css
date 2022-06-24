@@ -150,19 +150,23 @@ img{
 input{
     width: 40%;
     height: 30px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
 }
 textarea{
     width: 40%;
     height: 2%;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
 }
 label{
     margin-left: -400px;
 }
 .kirim{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     outline: none;
-    border: var(--primary-color) 2px solid;
+    border: var(--secondary-color) 2px solid;
     width: 60px;
     height: 40px;
     border-radius: 5px;
@@ -173,7 +177,7 @@ label{
 }
 .kirim:hover{
     background-color: white;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 /* Akhir Contact Section */
 
